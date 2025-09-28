@@ -1,5 +1,5 @@
 import React from 'react'
-import projects from '../components/projectsData'
+import projectsData from '../components/ProjectsData'
 import CTA from '../components/CTA'
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
       <div className='main-container py-28'>
         <h2 className='text-6xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight text-center'>Projects</h2>
         <div className='grid md:grid-cols-2 gap-8 mt-8 lg:mt-16'>
-          {projects.map(({ id, name, image, link }) => (
+          {projectsData.map(({ id, name, image, link }) => (
             <a
               key={id}
               href={link}

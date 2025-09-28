@@ -3,7 +3,7 @@ import cryptoApp from '../assets/images/cryptoApp.png'
 import todoApp from '../assets/images/todoApp.png'
 import weatherApp from '../assets/images/weatherApp.png'
 
-const projects = [
+const projectsData = [
   {
     id: 1,
     name: "Book Store",
@@ -30,4 +30,4 @@ const projects = [
   }
 ];
 
-export default projects;
+export default projectsData;
