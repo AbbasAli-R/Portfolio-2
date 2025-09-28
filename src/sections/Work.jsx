@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import GradientButton from '../components/GradientButton'
-import projects from '../components/projectsData'
+import projectsData from '../components/ProjectsData';
 import { gsap } from "gsap";
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -48,7 +48,7 @@ const Work = () => {
         <div ref={projectsRef}>
           {/* Projects */}
           <div className='flex gap-4 lg:gap-8 ms-4 lg:ms-[40%] mt-6'>
-            {projects.map(({ id, name, image, link }) => (
+            {projectsData.map(({ id, name, image, link }) => (
               <a
                 key={id}
                 href={link} target='_blank'

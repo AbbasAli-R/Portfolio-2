@@ -45,13 +45,13 @@ const Hero = () => {
         });
       },
     });
-    gsap.from(".gradient-btn", {
-      opacity: 0,
-      y: 40,
-      duration: 0.5,
-      ease: "power2.out",
-      delay: 1.25,
-    });
+    // gsap.from(".gradient-btn", {
+    //   opacity: 0,
+    //   y: 40,
+    //   duration: 0.5,
+    //   ease: "power2.out",
+    //   delay: 1.25,
+    // });
 
     gsap.from(".star svg",{
       scale:0,
