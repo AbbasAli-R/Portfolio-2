@@ -43,7 +43,7 @@ const Work = () => {
             <h3 className='mb-3'>Selected Work</h3>
             <p className='text-lg lg:text-xl'>A showcase of my selected projects—designed to inspire, engage, and deliver real results.</p>
           </div>
-          <GradientButton text="Explore All" link="/projects" className="btn-light" />
+          <GradientButton text="Explore All" link="/projects" className="btn-light"/>
         </div>
         <div ref={projectsRef}>
           {/* Projects */}
