@@ -61,9 +61,9 @@ const Contact = () => {
         }
     }
   return (
-    <div className='p-4 lg:w-3/4 m-auto' id='contact'>
+    <div className='p-4 lg:w-3/4 m-auto py-28' id='contact'>
         <Toaster/>
-        <h2 className='my-8 text-center text-4xl font-bold font-heading tracking-tighter'>Let's Connect </h2>
+        <h2 className='my-8 text-4xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight text-center'>Let's Connect </h2>
         <form onSubmit={handleSubmit}>
             <div className='mb-4 flex space-x-4'>
                 <div className='lg:w-1/2'>

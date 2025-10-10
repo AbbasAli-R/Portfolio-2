@@ -7,7 +7,7 @@ const Projects = () => {
     <>
     <div className='bg-white text-black'>
       <div className='main-container py-28'>
-        <h2 className='text-6xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight text-center'>Projects</h2>
+        <h2 className='text-6xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight text-center'>Projects</h2> 
         <div className='grid md:grid-cols-2 gap-8 mt-8 lg:mt-16'>
           {projectsData.map(({ id, name, image, link }) => (
             <a

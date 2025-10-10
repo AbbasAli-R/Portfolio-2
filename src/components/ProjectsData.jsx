@@ -1,7 +1,6 @@
 import bookStore from '../assets/images/bookStore.png'
 import cryptoApp from '../assets/images/cryptoApp.png'
-import todoApp from '../assets/images/todoApp.png'
-import weatherApp from '../assets/images/weatherApp.png'
+import chatApp from '../assets/images/chatApp.png'
 
 const projectsData = [
   {
@@ -14,20 +13,14 @@ const projectsData = [
     id: 2,
     name: "Crypto App",
     image: cryptoApp,
-    link: "https://coin-radar.netlify.app/"
+    link: "https://coinverse-site.netlify.app/"
   },
   {
     id: 3,
-    name: "Todo App",
-    image: todoApp,
-    link: "https://helpful-licorice-748678.netlify.app/"
+    name: "Chat App",
+    image: chatApp,
+    link: "https://chat-app-swart-omega-75.vercel.app/login"
   },
-  {
-    id: 4,
-    name: "Weather App",
-    image: weatherApp,
-    link: "https://gleaming-queijadas-a7c9bf.netlify.app/"
-  }
 ];
 
 export default projectsData;
